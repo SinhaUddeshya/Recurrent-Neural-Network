@@ -1,0 +1,8 @@
+Created a project folder and copied the test data into it. The "Speech Commands Dataset" is an open sourced dataset consisting of 64,721
+WAVE audio files and transcripts of people saying just thirty different common words. Its an archive of nearly 2 GBs. We will divide the
+dataset into an 80/10/10 split of train/ cross-validation (dev)/ test sets, and depending on initial output we will change the split, if needed.
+
+Original model:
+
+50 epoch = 18.2%
+200 epoch = 19.3%
